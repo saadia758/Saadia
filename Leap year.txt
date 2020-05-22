@@ -16,3 +16,7 @@ public class Essential {
 	        {
 	            flag = false;
 	        }
+          else if(year % 4 == 0 && year%100!=0)
+	        {
+	            flag = true;
+	        }
