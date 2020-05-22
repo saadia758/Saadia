@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Essential {
+
+	public static void main(String[] args) {
+		int year;
+    	Scanner scan = new Scanner(System.in);
+    	System.out.println("Enter any Year:");
+    	year = scan.nextInt();
+    	  boolean isLeap = false;
+         if(year % 400 == 0)
+	        {
+	            flag = true;
+	        }
